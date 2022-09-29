@@ -1,0 +1,694 @@
+/* For the whole page */
+body{
+	padding: 0 30px; 
+	font-family: 'Raleway', sans-serif;
+}
+
+.flex{
+	display: flex;
+}
+
+header, main{
+	max-width: 1200px; 
+	margin: 0 auto;
+}
+
+ul{
+	list-style: none; 
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.tarif{
+	font-weight: 700; 
+}
+
+/* The header */
+
+header{
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+	margin-bottom: 5px; 
+}
+
+.logo{ 
+	width: 75px; 
+	height: 33px; 
+}
+
+.logo img{
+	width: 100%; 
+	height: 100%;
+}
+
+nav a{
+	padding: 45px 35px 0; 
+}
+
+nav {
+	margin: 15px; 
+}
+
+nav li a:hover{
+	color: #0065FC;
+	border-top: 2px solid #0065FC;
+	padding-top: 35px; 
+}
+
+/*Research*/
+
+.recherche{
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.recherche h2{
+	margin: 0px 0px 5px;
+}
+
+.recherche p{
+	margin-top: 4px;
+}
+
+.rechercheform{
+	height: 35px; 
+	margin-bottom: 20px;
+}
+
+.iconemap{
+	background-color: #F2F2F2;
+	border-radius: 10px 0 0 10px;
+	width: 35px; 
+}
+
+.iconemap i{
+	margin: auto; 
+	font-size: 14px;
+} 
+
+.recherche_input{
+	border: 1px solid #f2f2f2;
+	width: 150px; 
+	width: auto;
+	font-size: 15px;
+    padding-left: 14px;
+    font-weight: 600; 
+}
+
+button.boutonrechercher{
+	width: 110px;
+	background-color: #0065FC; 
+	border:  none;
+	border-radius: 0 10px 10px 0; 
+    color: #fff; 
+    opacity: 0.8;
+    font-weight: bold; 
+}
+
+.boutonrechercher i{
+	display: none; 
+}
+
+/* Filters */
+
+.textefiltres{
+	align-self: center;
+}
+
+.filtres{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap; 
+	font-weight: 900; 
+	margin-bottom: 20px; 
+}
+
+.filtre{
+	align-items: center;
+ 	border: 2px solid #f2f2f2;
+ 	border-left: none;
+	margin-left: 22px;
+ 	padding-left: 10px;
+ 	border-radius: 27px;
+	background: none;
+	font-family: 'Raleway', sans-serif;
+}
+
+.filtre .texte{
+	padding-left: 9px;
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.filtre:hover{ 
+	cursor: pointer;
+	border-color: #0065FC;
+}
+
+.filtreicones{
+	position: relative;
+    right: 8px; 
+    width: 33px; 
+    height: 33px ; 
+    border-radius: 50%;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
+.filtreicones i{
+	margin: auto; 
+	color: #0065FC;
+}
+
+.iconeI{
+	height: 15px;
+	width: 15px;
+	border: 2px solid #f2f2f2;
+	border-radius: 80%;
+	margin-right: 12px;
+}
+
+.iconeI i{
+	margin: auto; 
+	font-size: 10px; 
+	color: #0065FC;
+}
+
+/* Gray part accommodation-*/
+
+.hebergements{
+	order: -1; 
+}
+
+.hebergements, .lespluspopulaires{
+	background-color: #F2F2F2;
+	border-radius: 19px;
+	padding: 37px;
+}
+
+section#heberg.hebergements{
+	padding: 18px 20px 38px; 
+}
+
+.hebergementsBDR{
+	width: 100%; 
+	flex-wrap: wrap; 
+	align-items: flex-start; 
+    justify-content: space-around; 
+}
+
+.herbergementsHOT{
+	width: 220px; 
+    box-sizing: border-box; 
+    border: 4px solid #fff;
+    border-radius: 16px;
+    overflow: hidden; 
+    box-shadow: 0 0 8px #9e9e9e; 
+    margin: 0 5px 30px; 
+}
+
+.herbergementsHOT img{
+	width: 100%; 
+    height: 80px;
+    object-fit: cover; 
+}
+
+.herbergementsAPERCU{
+	flex-direction: column;
+	background-color: #fff;
+    padding: 4px 9px;
+
+}
+
+.herbergementsAPERCU p{
+	margin: 0;
+	font-size: 11px;
+}
+
+h3.herbergementsNoms{
+	margin: 0;
+	font-size: 14px;
+}
+
+.herbergementsNotation{
+	word-spacing: -2ch; 
+}
+
+.fa-star{
+	font-size: 8px; 
+	margin-top: 0;
+}
+
+.blue{
+	color: #0065FC;
+}
+
+.grey{
+	color: #f2f2f2;
+}
+
+.afficherplus{
+	font-weight: 600; 
+	font-size: 15px;
+}
+
+/* The most popular section on the right */
+
+.lespluspopulaires{
+	margin-left: 3%; 
+	padding-bottom: 0px;
+}
+
+.titreeticone{
+	justify-content: space-between; 
+	align-items: baseline; 
+}
+
+.titreeticone h2{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.titreeticone i{
+	font-size: 13px;
+}
+
+.hotelpopulaire{
+	box-sizing: border-box; 
+	height: 116px; 
+	width: 100%; 
+	border: 4px solid #fff;
+	border-radius: 18px;
+    margin-bottom: 24px; 
+    box-shadow: 0 0 8px #9e9e9e; 
+    overflow: hidden; 
+    background-color: #fff; 
+}
+
+.hotelpopulaire img{
+	width: 38%;
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.detailsDesPlusPop{
+	background-color: #fff;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 9px 11px 4px; 
+}
+
+.detailsDesPlusPop p{
+	font-size: 11px;
+}
+
+.HerbergNoms{
+	margin: 0;
+	font-weight: 600; 
+	font-size: 14px;
+}
+
+.detailsDesPlusPop .HerbergNoms + p{
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+
+/* Activities */
+
+.activ{
+	flex-direction: column;
+	width: 100%;
+}
+
+#activitesMrs{
+	margin: 30px 0 15px; 
+	font-weight: 600; 
+	font-size: 20px;
+}
+
+.touteslesactiv{
+	height: 360px; 
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap:  36px;
+}
+.activitville{
+	box-sizing: border-box; 
+	border-radius: 16px;
+	overflow: hidden; 
+	box-shadow: 0 0 8px #9e9e9e; 
+}
+
+a.formatA3{
+	height: 100%;
+	width: 23%;
+}
+
+a.formatA4, .fotmatA6{
+	height: 50%;
+	width: 23%;
+}
+
+.formatA3 img{
+	height: 318px;
+	width: 100%;
+	object-fit: cover; 
+}
+
+.formatA4 img{
+	height: 133px;
+	width: 100%;
+	object-fit: cover; 
+}
+
+.formatA6 img{
+	height: 100px;
+	width: 100%;
+	object-fit: cover; 
+}
+
+h3.nomactivite{
+	align-self: center; 
+	background-color: #fff;
+	padding-left: 9px;
+	font-size: 14px;
+	margin: 10px;
+	font-weight: 600; 
+}
+
+/* Footer */	
+
+footer{
+	background-color: #F2F2F2;
+	padding: 20px 70px 20px 0;
+	margin-top: 5%;
+}
+
+.pieddepage{
+	justify-content: space-around;
+}
+
+ul{
+	padding: 0;
+}
+
+footer li{
+	margin-bottom: 15px;
+}
+
+footer a:hover{ 
+	font-weight: 600;
+	color: #0065FC;
+}
+
+	/* General screen reduction */
+@media only screen and (max-width: 992px){
+
+	body {
+		padding: 0;
+		margin: 0;
+	}
+
+	/* Overall lead */
+	 nav.nav{
+        width: 100%; 
+        justify-content: flex-end;
+     }
+
+    /* General search */
+    section.recherche{
+    	width: auto; 
+    	margin: 0 0 35px; 
+    	padding-left: 20px;
+    }
+
+	.recherche{
+		margin-left: 20px;
+	}
+
+	/* General filters */
+
+	.filtreliste{
+		width: 90%;
+		flex-wrap: wrap; 
+		align-items: flex-start; 
+		gap: 10px;
+	}
+
+	.blocinfo{
+		margin-top: 30px;
+	}
+
+	.containerHebergements{
+		flex-direction: column;
+	}
+
+	.hebergements{
+		order: 1; 
+		background-color: white;
+	}
+
+	.lespluspopulaires{
+		margin: 0;
+	}
+
+	/*Accommodation*/
+
+	.hebergementsBDR{
+		justify-content: center;
+	}
+
+	/* General activities*/
+	section#activit.activ{
+		width: auto;
+	}
+}
+
+/* Tablet */
+@media only screen and (max-width: 992px){
+
+	/* Most popular on tablet*/
+	.lespluspopulaires{
+		margin: 0; 
+		padding-bottom: 20px;
+	}
+
+	.hotelpopulaire{
+		height: 182px;
+	}
+
+	.detailsDesPlusPop, .HerbergNoms{
+		font-size: 22px;
+	}
+
+	.detailsDesPlusPop p{
+		font-size: 20px;
+	}
+
+	.detailsDesPlusPop .fa-star{
+		font-size: 15px;
+	}
+
+	/* Tablet activities-*/
+
+	.activ{
+		padding-left: 20px;
+	}
+
+	h2#activitesMrs{
+		margin-bottom: 25px;
+	}
+
+	.touteslesactiv{
+		height: auto;
+	}
+
+	.activitville{
+		height: 200px; 
+		width: 95%;
+	}
+
+	a.formatA3, a.formatA4, .fotmatA6{
+	height: 100%;
+	width: 100%;
+	}
+
+	.activitville img{
+	height: 73%;
+	width: 100%;
+	object-fit: cover; 
+	}
+
+	.nomactivite{
+		font-size: 20px;
+	}
+}
+
+/* Cellphones */
+@media only screen and (max-width: 768px){ 
+
+	h2{
+        font-size: 23px;
+    }
+
+    /* Leading cellphones */
+
+    header{
+    	margin: 0;
+    	flex-direction: column;
+    }
+
+    nav.nav{
+        margin: 0 0px 25px;
+        justify-content: space-around; 
+        border-bottom: 3px solid #f2f2f2;
+    }
+
+    nav li{
+    	margin-bottom: -6px;
+    }
+
+    nav li a{
+    	padding: 0 60px 10px ; 
+    	border-bottom: 3px solid #f2f2f2;
+    }
+
+    nav li a:hover{
+	color: #0065FC;
+	border-bottom: 3px solid #0065FC;
+	border-top: none;
+	padding-top: 35px; 
+    }
+
+    /* Searching for cellphones */
+
+    .recherche p{
+    	margin-top: 10px;
+    }
+
+    .rechercheform{
+    	padding: 15px 10px;
+    	justify-content: center;
+    }
+
+    .boutonrechercher{
+    	position: relative;
+    	width: 45px; 
+    	border-radius: 10px;
+    	left: -10px; 
+    }
+
+    .boutonrechercher span{
+    	display: none; 
+    }
+
+    .boutonrechercher i{
+    	display: inline-block; 
+    }
+
+    /* Cellphone filters*/
+
+    .filtres{
+    	flex-direction: column;
+    	align-items: flex-start;
+    }
+
+    .textefiltre{
+    	margin-bottom: 10px;
+    }
+
+    .filtre{
+    	margin-left: 0;
+    	height: 40px;
+    }
+
+	.filtreicones {
+		height: 40px;
+		width: 40px;
+	}
+
+    .blocinfo{
+    	margin-top: 0;
+    	padding-top: 30px;
+    	width: 70% ; 
+    }
+
+    /* Most popular cellphone */
+    .lespluspopulaires{
+    	border-radius: 0; 
+
+    }
+
+    .titreeticone i{
+    	font-size: 22px;
+    }
+
+    .HerbergNoms{
+    	font-size: 18px;
+    	width: 80% ; 
+    }
+
+    .detailsDesPlusPop p{
+    	font-size: 14px;
+    }
+
+    .detailsDesPlusPop {
+    	padding: 14px 9px 11px 21px;
+    }
+
+    .notationHeberg{
+    	display: flex;
+    }
+
+    i.fa-star{
+    	font-size: 18px; 
+    	letter-spacing: 3px;
+    }
+
+    /* Mobile phone accommodation */
+
+    .containerHebergements{
+    	height: auto;
+    }
+    section.hebergementsBDR{
+    	flex-direction: column;
+    }
+
+    section.hebergementsBDR a{
+    	width: 100%;
+    }
+
+    article.herbergementsHOT{
+    	width: 100%; 
+    	margin-bottom: 15px;
+    }
+
+    .herbergementsHOT img{
+    	height: 125px; 
+    }
+
+    .herbergementsAPERCU p{
+    	font-size: 12px;
+    }
+
+     /* Mobile phone footer */
+
+     footer{
+     	flex-direction: column;
+     	padding: 43px 29px;
+     }
+
+}
+
+
+
+
+
+
+
+
+
