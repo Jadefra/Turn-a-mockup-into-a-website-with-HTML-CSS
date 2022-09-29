@@ -28,3 +28,7 @@ integration for different media.
 - The code is valid for W3C HTML and CSS validators.
 - The mockup is compatible with the latest versions of Google Chrome and Mozilla Firefox.
 - The code complies with W3C validators (HTML and CSS).
+
+# Skills
+- Integrate content according to a model
+- Implement a responsive interface
