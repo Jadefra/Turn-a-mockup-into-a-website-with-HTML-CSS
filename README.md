@@ -74,7 +74,7 @@ Integration of the search bar of the page using a form
 ### Step 10: Implement the footer ###
 - Integrate the footer with its many connections
 - `ul` to make the links, I had by default a padding-left
-### Step 11: Check the quality of your code ###
+### Step 11: Check code quality ###
 - Check that the code complies with W3C validators(HTML and CSS)
 - Use the kebab case, for example `.main-wrapper`. It's here most common CSS convention
 
