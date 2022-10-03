@@ -10,7 +10,7 @@ The website is responsive (adapts to phone screens)
 - Users will be able to search for accommodation in the city of their choice. The search field is an input field, so the text should be able to be edited by the user. This field is in a form for it to be valid with the W3C. The search part does not work at the moment.
 - Each accommodation or activity card is clickable in its entirety (not just the title). For now, the links are empty. We used an attribute `href=”#”` to simulate the presence of a link.
 - Filters change appearance on hover.
-- The texts “Hébergements” and “Activités”, located in the header, are links. They lead respectively to the “Hébergements à Marseille” and “Activities in Marseille” sections.
+- The texts “Hébergements” and “Activités”, located in the header, are links. They lead respectively to the “Hébergements à Marseille” and “Activités à Marseille” sections.
 
 ### Technical specifications : ###
 - The site is also suitable for tablet formats. For the tablets, I was free to make the necessary adaptations. No element is cut, and the text has a sufficient size.
