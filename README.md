@@ -51,32 +51,32 @@ Integration of the search bar of the page using a form
 - Some of the border radii change depending on the version, mobile or desktop
 ### Step 5: Adding the Filters part ###
 - Use only Flexbox
-- Use Flexbox both to include all the filters, and to inside each filter.
-- Use flex-wrap to manage the positioning of elements.
-- Use a margin property rather than padding.
-- Use pixels instead of percentages for margin and padding values.
+- Use Flexbox both to include all the filters, and to inside each filter
+- Use flex-wrap to manage the positioning of elements
+- Use a margin property rather than padding
+- Use pixels instead of percentages for margin and padding values
 ### Step 6: Make the “card” present in “Hébergements à Marseille” ###
 - Realize the design of the "card" "Auberge La Cannebière”. In the next step, I took care of the one contained in the "Les plus populaires" section, before finally tackling to the layout of all these elements.
-- The `object-fit` CSS property can be used to adjust the size from the image to its container.
-- Give a fixed size for the cards.
-- Margins and paddings, favor the percentages.
-- Images are embedded via HTML with alt attributes.
+- The `object-fit` CSS property can be used to adjust the size from the image to its container
+- Give a fixed size for the cards
+- Margins and paddings, favor the percentages
+- Images are embedded via HTML with alt attributes
 ### Step 7: Make the “card” present in “Les plus populaires” ###
 - There are border radius on the images
 ### Step 8: Manage container display “Hébergements à Marseille” and “Les plus populaires” ###
 - Use flex and percentages to manage display rules. The ratios are one-third and two-thirds. Turn that into percentages.
-- First make the layout between the two containers before tackling the interior layout in each of the containers.
-- First add each of the cards in each of the containers before doing the layout.
+- First make the layout between the two containers before tackling the interior layout in each of the containers
+- First add each of the cards in each of the containers before doing the layout
 - The background colors are reversed between the mobile version and the desktop
 ### Step 9: Integrate the “Activités à Marseille” container ###
-- Integrate containers of different sizes.
+- Integrate containers of different sizes
 - Once the height and layout of each of the containers is satisfactory, I was able to add the images and the texts
 ### Step 10: Implement the footer ###
-- Integrate the footer with its many connections.
+- Integrate the footer with its many connections
 - `ul` to make the links, I had by default a padding-left
 ### Step 11: Check the quality of your code ###
-- Check that the code complies with W3C validators(HTML and CSS).
-- Use the kebab case, for example `.main-wrapper`. It's here most common CSS convention.
+- Check that the code complies with W3C validators(HTML and CSS)
+- Use the kebab case, for example `.main-wrapper`. It's here most common CSS convention
 
 # Skills
 - Integrate content according to a model
